@@ -13,6 +13,7 @@ class FeedTube
         FeedTube(int in1, int in2, int in3, int in4, int _step);
         void testMotor();
         void dispense();
+        void wait(int, int);
 
     private:
         int _in1;
